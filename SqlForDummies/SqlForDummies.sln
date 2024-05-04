@@ -9,7 +9,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{4FAAE1B2-7AB4-4BB1-AC73-8AF5F83C379C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseInterpreter", "DatabaseInterpreter\DatabaseInterpreter.csproj", "{41E5D1EB-5265-4855-981F-DBF65E44A4F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseInterpreter", "DatabaseInterpreter\DatabaseInterpreter.csproj", "{41E5D1EB-5265-4855-981F-DBF65E44A4F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{606C3065-5D0E-4FD6-BF56-C3FA6255A7B3}"
+	ProjectSection(SolutionItems) = preProject
+		SqlForDummies.sln.startup.json = SqlForDummies.sln.startup.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{505C685C-AB1B-401A-AFD8-6BDE05F50056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FE2A4807-C387-45C5-A55B-FC44CE03246F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.API", "Test.API\Test.API.csproj", "{2FC368C9-B2A1-4468-B9B5-1CCA1EF066A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +44,10 @@ Global
 		{41E5D1EB-5265-4855-981F-DBF65E44A4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41E5D1EB-5265-4855-981F-DBF65E44A4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41E5D1EB-5265-4855-981F-DBF65E44A4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC368C9-B2A1-4468-B9B5-1CCA1EF066A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC368C9-B2A1-4468-B9B5-1CCA1EF066A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC368C9-B2A1-4468-B9B5-1CCA1EF066A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC368C9-B2A1-4468-B9B5-1CCA1EF066A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
