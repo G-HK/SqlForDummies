@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SchemaReaderCli": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
