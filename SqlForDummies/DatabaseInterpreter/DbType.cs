@@ -3,11 +3,13 @@
 public enum DbType
 {
     SqlServer,
+    SqlServerCe,
+    SQLite,
     MySql,
     Oracle,
-    SQLite,
     PostgreSql,
-    Odbc,
+    Db2,
+    MongoDb,
     OleDb,
-    MongoDb
+    Odbc,
 }
