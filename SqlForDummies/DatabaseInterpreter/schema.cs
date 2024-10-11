@@ -60,7 +60,7 @@ public class Column
     public int? Scale { get; set; }
 
     public bool FullText { get; set; }
-    public string GeneratedAlwaysType { get; set; } // enum => Convert
+    public string? GeneratedAlwaysType { get; set; } // enum => Convert
     public bool IsHidden { get; set; }
     public bool IsDroppedLedgerColumn { get; set; }
     public bool NotForReplication { get; set; }

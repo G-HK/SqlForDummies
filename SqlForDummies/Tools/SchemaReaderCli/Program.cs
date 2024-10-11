@@ -1,9 +1,7 @@
-﻿using DatabaseInterpreter;
-
-Console.WriteLine("Schema Reader V1");
-
+﻿Console.WriteLine("Schema Reader V1");
+string ProviderTypes = "";
 Console.WriteLine("Select The Type Database connections");
-foreach (var providerType in ProviderType)
+foreach (var providerType in ProviderTypes)
 {
     Console.WriteLine("{number}: {name}", providerType, nameof(providerType));
 }
